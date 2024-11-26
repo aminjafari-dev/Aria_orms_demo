@@ -77,6 +77,17 @@ class HomePage extends StatelessWidget {
               SizedBox(
                 width: 184,
                 child: PetroIconButton(
+                  text: PetroString.cmmsChecklist,
+                  icon: Icons.settings,
+                  onPressed: () {
+                    _homeController.navigateToControlRoom(context);
+                  },
+                ),
+              ),
+              PetroGap.gap_20,
+              SizedBox(
+                width: 184,
+                child: PetroIconButton(
                   text: PetroString.cameraTools,
                   icon: Icons.camera,
                   onPressed: () {

@@ -59,5 +59,6 @@ class PetroString {
   static const String tryAgain = 'Try Again';
   static const String nfcIsOn = 'Scanning is ON';
   static const String nfcIsOff = 'Scanning is OFF';
+  static const String cmmsChecklist = 'CMMS Checklist';
   static const String test = 'test';
 }
