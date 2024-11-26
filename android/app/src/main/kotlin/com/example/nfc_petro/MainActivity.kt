@@ -1,4 +1,4 @@
-package com.dpsha.ariaorms
+package com.dpsha.ariacorms
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
@@ -8,7 +8,7 @@ import android.app.PendingIntent
 import android.content.Intent
 
 class MainActivity: FlutterActivity(), NfcAdapter.ReaderCallback {
-    private val CHANNEL = "com.dpsha.ariaorms/nfc"
+    private val CHANNEL = "com.dpsha.ariacorms/nfc"
     private lateinit var channel: MethodChannel
     private var nfcAdapter: NfcAdapter? = null
 

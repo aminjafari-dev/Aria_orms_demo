@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.dpsha.ariaorms"
+3    package="com.dpsha.ariacorms"
 4    android:versionCode="4"
 5    android:versionName="1.0.4" >
 6
@@ -53,12 +53,12 @@
 30
 31    <permission
 31-->[androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
-32        android:name="com.dpsha.ariaorms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32        android:name="com.dpsha.ariacorms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 32-->[androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 33        android:protectionLevel="signature" />
 33-->[androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 34
-35    <uses-permission android:name="com.dpsha.ariaorms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35    <uses-permission android:name="com.dpsha.ariacorms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 35-->[androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 35-->[androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 36
@@ -70,7 +70,7 @@
 41        android:icon="@mipmap/launcher_icon"
 42        android:label="Aria ORMS" >
 43        <activity
-44            android:name="com.dpsha.ariaorms.MainActivity"
+44            android:name="com.dpsha.ariacorms.MainActivity"
 45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 46            android:exported="true"
 47            android:hardwareAccelerated="true"
@@ -96,7 +96,7 @@
 67        </activity>
 68
 69        <service
-70            android:name="com.dpsha.ariaorms.NfcBackgroundService"
+70            android:name="com.dpsha.ariacorms.NfcBackgroundService"
 71            android:exported="false" />
 72        <!--
 73             Don't delete the meta-data below.
@@ -123,7 +123,7 @@
 87-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/amin/.gradle/caches/8.9/transforms/f98bb9530239b589b642f63028d7fd72/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
 88            android:name="androidx.startup.InitializationProvider"
 88-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/amin/.gradle/caches/8.9/transforms/f98bb9530239b589b642f63028d7fd72/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
-89            android:authorities="com.dpsha.ariaorms.androidx-startup"
+89            android:authorities="com.dpsha.ariacorms.androidx-startup"
 89-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/amin/.gradle/caches/8.9/transforms/f98bb9530239b589b642f63028d7fd72/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
 90            android:exported="false" >
 90-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/amin/.gradle/caches/8.9/transforms/f98bb9530239b589b642f63028d7fd72/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37

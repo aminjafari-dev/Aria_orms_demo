@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.dpsha.ariaorms",
+  "applicationId": "com.dpsha.ariacorms",
   "variantName": "debug",
   "elements": [
     {

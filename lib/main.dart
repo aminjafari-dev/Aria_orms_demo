@@ -55,7 +55,7 @@ void main() async {
 //   });
 
 //   // Start NFC scanning
-//   const platform = MethodChannel('com.dpsha.ariaorms/nfc');
+//   const platform = MethodChannel('com.dpsha.ariacorms/nfc');
 //   try {
 //     await platform.invokeMethod('startNfcScan');
 //   } catch (e) {
@@ -122,7 +122,7 @@ class NfcScanPage extends StatefulWidget {
 }
 
 class _NfcScanPageState extends State<NfcScanPage> {
-  static const platform = MethodChannel('com.dpsha.ariaorms/nfc');
+  static const platform = MethodChannel('com.dpsha.ariacorms/nfc');
   String _nfcData = 'No NFC data';
 
   @override

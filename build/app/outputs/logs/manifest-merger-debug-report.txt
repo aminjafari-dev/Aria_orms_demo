@@ -245,7 +245,7 @@ ADDED from [androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms
 		ADDED from [androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
-permission#com.dpsha.ariaorms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.dpsha.ariacorms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
@@ -255,7 +255,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-uses-permission#com.dpsha.ariaorms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.dpsha.ariacorms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/AndroidManifest.xml:26:22-94

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dpsha.ariaorms.app-mergeDebugResources-28:/values-zu/values-zu.xml",
+            "outputFile": "com.dpsha.ariacorms.app-mergeDebugResources-28:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "/Users/amin/.gradle/caches/8.9/transforms/252749345d6c2cd49fa4eae3877bc879/transformed/core-1.13.1/res/values-zu/values-zu.xml",
