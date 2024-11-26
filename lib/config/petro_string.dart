@@ -60,5 +60,7 @@ class PetroString {
   static const String nfcIsOn = 'Scanning is ON';
   static const String nfcIsOff = 'Scanning is OFF';
   static const String cmmsChecklist = 'CMMS Checklist';
+  // static const String ok = 'Ok';
+  static const String notOk = 'Not Ok';
   static const String test = 'test';
 }

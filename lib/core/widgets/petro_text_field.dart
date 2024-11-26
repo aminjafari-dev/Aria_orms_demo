@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:nfc_petro/config/petro_colors.dart';
 
@@ -10,7 +12,9 @@ class PetroTextField extends StatelessWidget {
     this.textInputType = TextInputType.name,
     this.validator,
     this.fillColor,
-    this.focusNode
+    this.focusNode,
+    this.minLines,
+    this.maxLines,
   });
   final TextEditingController? controller;
   final String hint;
@@ -19,6 +23,8 @@ class PetroTextField extends StatelessWidget {
   final String? Function(String?)? validator;
   final Color? fillColor;
   final FocusNode? focusNode;
+  final int? minLines;
+  final int? maxLines;
   @override
   Widget build(BuildContext context) {
     return TextFormField(
@@ -27,6 +33,8 @@ class PetroTextField extends StatelessWidget {
       focusNode: focusNode,
       keyboardType: textInputType,
       validator: validator,
+      maxLines: maxLines,
+      minLines: minLines,
       decoration: InputDecoration(
         hintText: hint,
         hintStyle: TextStyle(color: PetroColors.black.withOpacity(.2)),

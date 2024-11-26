@@ -48,9 +48,7 @@ class HomePage extends StatelessWidget {
                         ? PetroString.nfcIsOn
                         : PetroString.nfcIsOff,
                     icon: Icons.nfc_rounded,
-                    buttonColor: controller.scanning
-                        ? null
-                        : PetroColors.red,
+                    buttonColor: controller.scanning ? null : PetroColors.red,
                     textSize: 18,
                     onPressed: () {
                       if (controller.scanning) {
@@ -78,9 +76,10 @@ class HomePage extends StatelessWidget {
                 width: 184,
                 child: PetroIconButton(
                   text: PetroString.cmmsChecklist,
-                  icon: Icons.settings,
+                  textSize: 17,
+                  icon: Icons.checklist_rounded,
                   onPressed: () {
-                    _homeController.navigateToControlRoom(context);
+                    _homeController.navigateToChecklist(context);
                   },
                 ),
               ),

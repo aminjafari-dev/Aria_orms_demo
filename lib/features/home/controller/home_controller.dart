@@ -8,6 +8,9 @@ class HomeController {
   void navigateToControlRoom(BuildContext context) {
     Navigator.pushNamed(context, PageName.controlRoom);
   }
+  void navigateToChecklist(BuildContext context) {
+    Navigator.pushNamed(context, PageName.checklist);
+  }
 
   void navigateToCamera(BuildContext context) async {
     final CameraFunctionController cameraFunctionController =

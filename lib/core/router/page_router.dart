@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:nfc_petro/features/about%20us.dart/view/about_us.dart';
 import 'package:nfc_petro/features/app%20setting/view/app_setting_page.dart';
 import 'package:nfc_petro/features/camera/view/camera_page.dart';
+import 'package:nfc_petro/features/checklist%20questions/view/checklist_questions_page.dart';
+import 'package:nfc_petro/features/cmms%20checklist/view/page/control_room_page.dart';
 import 'package:nfc_petro/features/control%20room/view/page/control_room_page.dart';
 import 'package:nfc_petro/features/data%20entry/view/data_entry_page.dart';
 import 'package:nfc_petro/features/home/view/page/home_page.dart';
@@ -18,13 +20,15 @@ class PageRouter {
     PageName.home: (context) => HomePage(),
     PageName.aboutUs: (context) => const AboutUsPage(),
     PageName.syncOrder: (context) => const SyncOrderPage(),
-    PageName.login: (context) => LoginPage(),
+    PageName.login: (context) => const LoginPage(),
     PageName.controlRoom: (context) => ControlRoomPage(),
     PageName.dataEntry: (context) => const DataEntryPage(),
     PageName.syncStatus: (context) =>  SyncStatusPage(),
     PageName.camera: (context) => CameraPage(),
     PageName.mediaDetails: (context) => MediaDetailsPage(),
     PageName.appSetting: (context) => AppSettingPage(),
+    PageName.checklist: (context) => CmmsChecklistPage(),
+    PageName.checklistQuestions: (context) => const ChecklistQuestionsPage(),
   };
 }
 
@@ -41,4 +45,6 @@ class PageName {
   static const String syncOrder = "/sync_order";
   static const String syncStatus = "/sync_with_server";
   static const String appSetting = "/app_setting";
+  static const String checklist = "/checklist";
+  static const String checklistQuestions = "/checklist_questions";
 }
